@@ -12,7 +12,7 @@ int main(){
         printf("%.f",(n1-n2));
         break;
         case '*':
-        printf("%.f",(n1*n2));
+        printf("%d",(n1*n2));
         break;
         case '/':
         printf("%.2f",(n1/n2));
