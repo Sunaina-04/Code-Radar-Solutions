@@ -8,6 +8,7 @@ int main(){
       for (int j=1; j<=length;j++){
          (i==1|| i== length || j==1 || j== length)?printf("*"):printf(" ");
       }
+            printf("\n");
    }
    return 0;
 }
