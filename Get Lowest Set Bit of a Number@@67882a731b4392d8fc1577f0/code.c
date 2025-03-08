@@ -7,7 +7,7 @@ int main(){
         printf("0");
     }
     else{
-        int q=n,count =0;
+        int q=n,count =-1;
         while(n){
             // printf("q %d",q);
             ++count ;
