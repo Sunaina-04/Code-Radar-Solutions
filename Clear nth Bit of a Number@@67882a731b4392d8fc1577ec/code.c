@@ -4,7 +4,7 @@ int main(){
     int n,bit_pos;
     // n=7;
     scanf("%d %d",&n,&bit_pos);
-    n= n&(7<<1);
+    n= n&(n<<bit_pos);
     printf("%d",n);
     return 0;
 }
