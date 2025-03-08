@@ -7,7 +7,7 @@ int main(){
         printf("0");
     }
     else{
-        printf("koi aur");
+        printf("1");
     }
     return 0;
 }
