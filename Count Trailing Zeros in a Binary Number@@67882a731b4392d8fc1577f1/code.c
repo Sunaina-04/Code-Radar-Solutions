@@ -1,9 +1,10 @@
-// Your code here...
 #include <stdio.h>
+/*Counting trailing zeros */
 int main(){
-    int n,count=0;
+    int n,count=0,bit_check;
     scanf("%d",&n);
-    while ((n&1==0)&&n!=0){
+    bit_check =n&1;
+    while ((bit_check==0) && n!=0){
         count ++;
         n>>=1;
     }
