@@ -2,6 +2,7 @@
 #include <stdio.h>
 int main(){
     int n,length=0;
+    scanf("%d",&n);
     char binary[32];
 
     do{
