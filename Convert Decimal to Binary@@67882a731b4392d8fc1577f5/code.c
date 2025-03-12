@@ -6,7 +6,10 @@ int main(){
     char binary[32];
 
     do{
-        (n%2==0)?binary[length]='0':binary[length]='1';
+        if(n%2==0){
+        binary[length]='0'}
+        else{
+            binary[length]='1';}
         n/=2;
         length++;
     }while (n!=0);
