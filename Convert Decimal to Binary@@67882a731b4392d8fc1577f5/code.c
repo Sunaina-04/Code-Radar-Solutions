@@ -8,7 +8,7 @@ int main(){
         (n%2==0)?binary[length]='0':binary[length]='1';
         n/=2;
         length++;
-    }while (decimal!=0);
+    }while (n!=0);
 
     binary[length]='\0';
     int middle =length/2;
