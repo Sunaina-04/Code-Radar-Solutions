@@ -7,7 +7,7 @@ int main(){
         printf("32\n");
     }
     for (int i=31;i>0;i--){
-        if ((num>>1)&1){break;}
+        if ((n>>1)&1){break;}
         count++;
     }
     printf("%d",count);
