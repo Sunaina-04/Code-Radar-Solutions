@@ -2,7 +2,7 @@
 #include <stdio.h> 
 int fibonacciSeries(n){
     int a,z,b;
-    {printf("0 1")};
+    printf("0 1");
     for (int i =2;i<n;i++){
     z=a+b;
     b=a;
