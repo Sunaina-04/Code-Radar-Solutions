@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h> 
-int fibonacciSeries(n){
+void fibonacciSeries(n){
     int a=0,z,b=1;
     printf("0 1");
     for (int i =2;i<n;i++){
@@ -8,7 +8,6 @@ int fibonacciSeries(n){
     b=a;
     a=z;}
     printf("%d %d",a,b);
-    return 0;
 }
 int main() { 
 int n; 
