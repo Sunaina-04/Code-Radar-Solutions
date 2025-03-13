@@ -4,6 +4,6 @@ int isPrime(int num){
     for (int i=1;i<=num;i++){
         if (num%i==0){count++;}
     }
-    (count==2)?printf("1"):printf("0");
+    (count==2)?printf("1\n"):printf("0\n");
     return 0;
 }
