@@ -1,7 +1,7 @@
 #include <stdio.h> 
 int fibonacciSeries(int n){
     int a=0,z,b=1;
-    printf("%d %d ",a,b);
+    printf("%d ",a);
     for (int i =2;i<=n;i++){
     z=a+b;
     printf("%d ",z);
