@@ -4,8 +4,9 @@
 
 int main()
 {
-    int n,*c,k;
+    int n,k;
     scanf("%d",&n);
+    int c[n];
     for (int j=0;j<=n;j++){
         scanf("%d",c[j]);
     }
