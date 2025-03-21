@@ -4,9 +4,9 @@
 
 int main()
 {
-    int n,k,*c;
+    int n,*c,k;
     scanf("%d",&n);
-    c=(int*) malloc(n*sizeof(int));
+    c = (int*) malloc(num * sizeof(int));
     for (int j=0;j<=n;j++){
         scanf("%d",c[j]);
     }
