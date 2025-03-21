@@ -14,5 +14,6 @@ int main()
     for (int i= n-k;i>=0;i++){
         printf("%d",c[i]);
     }
+    free(c);
 return 0;
 }
