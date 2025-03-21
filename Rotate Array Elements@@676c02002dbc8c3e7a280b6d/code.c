@@ -14,6 +14,6 @@ int main()
     scanf("%d", &k);
     for (int n=0;n==k;n++){
     for(int j = num-1; j>=0; j--)
-        printf("%d ", *(arr + j));}
+        printf("%d ", arr[j]);}
     return 0;
 }
