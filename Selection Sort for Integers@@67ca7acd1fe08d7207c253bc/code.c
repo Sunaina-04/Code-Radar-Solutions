@@ -1,22 +1,16 @@
 // Your code here...// Your code here...
-#include <stdbool.h>
 int selectionSort(int *arr,int n){
-    int temp,swapped;
     for (int i=0;i<n-1;i++){
-        swapped=false;
-        for(int j=0;j<n-1;j++){
-            if(arr[j]>arr[j+1]){
-                temp=arr[j];
-                arr[j]=arr[j+1];
-                arr[j+1]=temp;
-                swapped=true;
-            }
-        }
-        if (swapped==false){
-            break;
-        }
+        int max_ind=i;
+        //finding least ele
+        for(int j=0;<n;j++){
+            if (arr[j]<arr[min_ind]){
+                min_ind=j;}}
+            //swap the least ele and keep going for the rest of the array 
+        int temp= arr[i];
+        arr[i]=arr[num];
+        arr[min]=temp;}
     }
-}
 int printArray(int *arr,int n){
     for (int i=0;i<n;i++){
         printf("%d ", arr[i]);
