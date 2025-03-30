@@ -1,7 +1,7 @@
 // Your code here...// Your code here...
 int selectionSort(int *arr,int n){
     for (int i=0;i<n-1;i++){
-        int max_ind=i;
+        int min_ind=i;
         //finding least ele
         for(int j=0;j<n;j++){
             if (arr[j]<arr[min_ind]){
