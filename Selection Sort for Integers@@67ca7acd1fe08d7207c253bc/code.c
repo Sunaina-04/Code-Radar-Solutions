@@ -9,7 +9,7 @@ int selectionSort(int *arr,int n){
             //swap the least ele and keep going for the rest of the array 
         int temp= arr[i];
         arr[i]=arr[num];
-        arr[min]=temp;}
+        arr[min_ind]=temp;}
     }
 int printArray(int *arr,int n){
     for (int i=0;i<n;i++){
