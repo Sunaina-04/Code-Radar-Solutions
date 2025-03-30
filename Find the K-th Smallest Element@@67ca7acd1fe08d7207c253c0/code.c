@@ -13,6 +13,6 @@ int kthSmallest(int *arr,int n,int k){
         if (swapped ==false){break;}
     }
 
-    if (k<n){return arr[k-1];}
+    if (k<=n){return arr[k-1];}
     else{return -1;}
 }
