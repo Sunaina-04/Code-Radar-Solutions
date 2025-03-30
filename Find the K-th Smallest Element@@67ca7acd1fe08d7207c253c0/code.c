@@ -10,7 +10,7 @@ int kthSmallest(int *arr,int n,int k){
                 arr[j+1]=temp;
                 swapped=true;}
         }
-        if (swapped ==false;){break;}
+        if (swapped ==false){break;}
     }
     if (arr[0]==k){
         return k;
