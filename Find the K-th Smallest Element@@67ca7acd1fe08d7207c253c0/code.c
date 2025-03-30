@@ -14,6 +14,5 @@ int kthSmallest(int *arr,int n,int k){
     }
 
     if (k<n){return arr[k];}
-    }
     else{return -1;}
 }
