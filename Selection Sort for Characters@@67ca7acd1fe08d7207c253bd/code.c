@@ -1,7 +1,7 @@
 // Your code here...
 int selectionSort(char *arr, int n){
-    for (char i='a';i<n-1;i++){
-        int min=i;
+    for (char i=0;i<n-1;i++){
+        int min='a';
         for (char j=i+1;j<n;j++){
             if (arr[j]<arr[min]){
                 min=j;
