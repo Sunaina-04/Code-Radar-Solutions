@@ -12,7 +12,7 @@ int main()
     for (int i=0;i<k+1;i++){
         int first=c[0];
         //swap last digits to first 
-        for (int j =0;j<n;j++){
+        for (int j =0;j<n-1;j++){
             c[j]=c[j+1];
         }
         c[n-1]=first;
