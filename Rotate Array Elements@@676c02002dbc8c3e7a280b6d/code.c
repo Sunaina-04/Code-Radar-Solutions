@@ -18,7 +18,7 @@ int main()
         c[n-1]=first;
     }
     for (int m=0;m<n;m++){
-        printf("%d ",c[m]);
+        printf("%d\n",c[m]);
     }
 return 0;
 }
